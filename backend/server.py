@@ -409,8 +409,8 @@ async def init_realizations():
                 "https://images.unsplash.com/photo-1624639948977-b54981cf5d5a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwzfHxjYXJwZW50cnklMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NjEwNDEyNDJ8MA&ixlib=rb-4.1.0&q=85"
             ],
             "main_image": "https://images.unsplash.com/photo-1685320198649-781e83a61de4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxjYXJwZW50cnklMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NjEwNDEyNDJ8MA&ixlib=rb-4.1.0&q=85",
-            "testimonial": null,
-            "client_name": null
+            "testimonial": None,
+            "client_name": None
         }
     ]
     await db.realizations.insert_many(realizations_data)
