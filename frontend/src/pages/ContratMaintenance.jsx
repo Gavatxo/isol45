@@ -290,15 +290,12 @@ const ContratMaintenance = () => {
           <div className="bg-slate-50 p-6 rounded-lg">
             <div className="flex justify-between items-center mb-4">
               <span className="text-lg font-semibold text-slate-900">Forfait mensuel</span>
-              <span className="text-3xl font-bold text-blue-600">79€ HT</span>
+              <span className="text-3xl font-bold text-blue-600">79€</span>
             </div>
-            <div className="flex justify-between items-center text-slate-600 mb-2">
-              <span>TVA 20%</span>
-              <span>15,80 €</span>
-            </div>
-            <div className="border-t border-slate-300 pt-2 flex justify-between items-center">
-              <span className="text-lg font-bold text-slate-900">Total TTC / mois</span>
-              <span className="text-2xl font-bold text-slate-900">94,80 €</span>
+            <div className="border-t border-slate-300 pt-4 mb-4">
+              <p className="text-sm text-slate-600 italic">
+                TVA non applicable, article 293 B du CGI
+              </p>
             </div>
           </div>
           <div className="mt-4 text-sm text-slate-600">
