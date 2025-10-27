@@ -164,7 +164,7 @@ const ContratMaintenance = () => {
               <div className="flex items-start gap-3 mb-3">
                 <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                 <h3 className="text-xl font-bold text-slate-900">
-                  3. Maintenance technique
+                  3. Maintenance technique & Gestion du contenu
                 </h3>
               </div>
               <ul className="ml-9 space-y-2 text-slate-700">
@@ -187,6 +187,12 @@ const ContratMaintenance = () => {
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600 mt-1">•</span>
                   <span>Optimisation des performances si nécessaire</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 mt-1">•</span>
+                  <span>
+                    <strong>Mise en ligne des nouvelles réalisations :</strong> Le Client transmet par email à contact@vibeweb.fr les informations et photos des nouvelles réalisations (titre, description, catégorie, localisation, date, images). Le Prestataire se charge de la mise en ligne sous 48h ouvrées.
+                  </span>
                 </li>
               </ul>
             </div>
