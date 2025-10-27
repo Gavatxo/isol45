@@ -33,13 +33,14 @@ const ContratMaintenance = () => {
               <div className="text-2xl font-bold mb-2">
                 Vibe<span className="text-blue-600">Web</span>
               </div>
-              <p className="text-slate-600">Agence Web & Digital</p>
-              <p className="text-slate-600">123 Avenue de la République</p>
-              <p className="text-slate-600">75011 Paris</p>
-              <p className="text-slate-600">SIRET : XXX XXX XXX XXXXX</p>
+              <p className="text-slate-600 text-sm">Entreprise individuelle Corentin Villoing</p>
+              <p className="text-slate-600 mt-2">46 rue beurrière</p>
+              <p className="text-slate-600">45340 Nibelle</p>
+              <p className="text-slate-600">N° TVA intracommunautaire : FR32982941585</p>
+              <p className="text-slate-600 text-sm mt-1 italic">TVA non applicable - Art. 293B du CGI</p>
               <p className="text-slate-600 mt-2">
                 <Phone size={14} className="inline mr-1" />
-                01 23 45 67 89
+                06 XX XX XX XX
               </p>
               <p className="text-slate-600">
                 <Mail size={14} className="inline mr-1" />
