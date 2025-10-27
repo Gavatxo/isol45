@@ -45,7 +45,7 @@ const DevisProjet = () => {
               <p className="text-slate-600">N° TVA intracommunautaire : FR32982941585</p>
               <p className="text-slate-600 mt-2">
                 <Phone size={14} className="inline mr-1" />
-                06 XX XX XX XX
+                06 78 07 15 22
               </p>
               <p className="text-slate-600">
                 <Mail size={14} className="inline mr-1" />
