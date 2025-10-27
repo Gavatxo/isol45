@@ -40,7 +40,7 @@ const ContratMaintenance = () => {
               <p className="text-slate-600 text-sm mt-1 italic">TVA non applicable - Art. 293B du CGI</p>
               <p className="text-slate-600 mt-2">
                 <Phone size={14} className="inline mr-1" />
-                06 XX XX XX XX
+                06 78 07 15 22
               </p>
               <p className="text-slate-600">
                 <Mail size={14} className="inline mr-1" />
