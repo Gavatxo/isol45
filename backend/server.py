@@ -12,7 +12,9 @@ from datetime import datetime, timezone
 
 
 ROOT_DIR = Path(__file__).parent
-load_dotenv(ROOT_DIR / '.env')
+env_file = ROOT_DIR / '.env'
+if env_file.exists():
+    load_dotenv(env_file)
 
 # MongoDB connection
 mongo_url = os.environ['MONGO_URL']
